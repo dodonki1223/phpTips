@@ -4,3 +4,6 @@
 
 ### IpAddressForSeveralPattern
 - IPアドレスのいろいろなパターンの取得方法
+
+### CurlTool
+- cURLを使用したサンプル集です
