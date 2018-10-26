@@ -16,11 +16,11 @@ var_dump( curlGet($url, array('gorira' => 1, 'kirin' => 2)) );
  *   cURLでGETリクエストを送信したURLとHTTPステータスコードと処理時間をコンソールに表示
  *
  * @param  string $url               GETリクエストを送信するURL
- * @param  string $urlParameter      GETリクエストを送信するURLに付加するURLパラメーター（連想配列）
- * @param  string $additionalOptions cURLに使用するデフォルトのオプションに追加するオプション
+ * @param  array  $urlParameter      GETリクエストを送信するURLに付加するURLパラメーター（連想配列）
+ * @param  array  $additionalOptions cURLに使用するデフォルトのオプションに追加するオプション
  * @return string cURLでGETリクエストを送信して受信したコンテンツ
  */
- function curlGet($url, array $urlParameter, array $additionalOptions = array())
+ function curlGet($url, array $urlParameter = array(), array $additionalOptions = array())
  {
 
      // GETリクエストを送信するURLを生成

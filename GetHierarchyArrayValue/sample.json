@@ -1,0 +1,14 @@
+{
+  "sample": {
+    "aaaaa": {
+      "bbbbb": {
+        "ccccc": "あいうえお",
+        "ddddd": "かきくけこ",
+        "eeeee": "さしすせそ"
+      } ,
+      "fffff": {
+        "ggggg": "たちつてと"
+      } 
+    }
+  }
+}
