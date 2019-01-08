@@ -12,3 +12,9 @@ aBc, aac：bool(false)
 123456, 1543a：bool(false)
 StatueOfLiberty, BuiltToStayFree：bool(true)
 ```
+
+### その他
+
+引数で受け取った文字列を並び替えてそれで比較するやり方もいいかもしれない。
+ただしあまり速度は速くないかもしれないがわかりやすい気がする。
+現状のコードだと他人が読んだ時、分かりづらい気がする
