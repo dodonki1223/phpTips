@@ -14,9 +14,6 @@
 ### CurlTool
 - cURLを使用したサンプル集です
 
-### ChangeDateStringToOtherDateString
-- 文字列の日付から別の日を求めるサンプル集です
-
 ### GetHierarchyArrayValue
 - 階層になっている配列の値を階層を表現したキー情報から取得するメソッド
 
