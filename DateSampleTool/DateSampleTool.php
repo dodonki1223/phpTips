@@ -45,6 +45,19 @@ echo '　１年後:' . date("Y-m-d", strtotime("+1 year {$targetDate}")) . PHP_E
 echo '　１年前:' . date("Y-m-d", strtotime("-1 year {$targetDate}")) . PHP_EOL;
 
 /*****************************************
+ * 文字列の日付同士の差を求めるサンプル
+ *****************************************/ 
+$targetDate     = new DateTime('2019-04-15');
+$targetDiffDate = new DateTime('2019-05-10');
+
+// 日付の差を求める
+$diff = $targetDate->diff($targetDiffDate);
+
+echo PHP_EOL;
+echo '★日付同士の差を求めるサンプル★' . PHP_EOL;
+echo $targetDiffDate->format('Y-m-d') . ' - ' . $targetDate->format('Y-m-d') . ' = ' . $diff->days . PHP_EOL;
+
+/*****************************************
  * 日付型から別の日を求めるサンプル
  *****************************************/ 
 $nowDate = new DateTime('now');

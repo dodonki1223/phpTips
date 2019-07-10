@@ -37,6 +37,20 @@ date('w')だと曜日の定数が取得（0:日、1:月、2:火、3:水、4:木�
 
 書式については[PHP: 相対的な書式 - Manual](https://www.php.net/manual/ja/datetime.formats.relative.php)を確認すること
 
+## 日付同士の差を求める
+
+### 日付型（DateTime）同士がどれくらいの差があるかの結果を表示します
+
+### 表示結果例
+
+```
+2019-05-10 - 2019-04-15 = 25
+```
+
+### その他
+
+`DateTime->diff`は[DateIntervalクラス](https://www.php.net/manual/ja/class.dateinterval.php)のオブジェクトを返す
+
 ## 日付型から別の日を求める
 
 ### 日付型（DataTime）から明日、昨日、１週間後などの日付計算をした結果を表示します

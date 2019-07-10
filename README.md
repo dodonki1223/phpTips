@@ -5,7 +5,7 @@
 ### BinarySafeSample
 - バイナリセーフな関数とそうでない関数の違いについてまとめる
 
-### ChangeDateTool
+### DateSampleTool
 - 日付関数を使用したサンプル集です
 
 ### ConvertStrings
